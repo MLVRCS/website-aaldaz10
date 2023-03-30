@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="background-color: red;">Hello World!</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+<!-- Chang your title here! -->
+<title>YOUR TITLE GOES HERE</title>
+
+<!-- DO NOT CHANGE ANY OF THIS -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<!-- Here is your stylesheet -->
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-IMAGE: url('https://cdns-images.dzcdn.net/images/cover/701a2d2032dea2b6b880058f90d67f9b/264x264.jpg');
+  
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens DO NOT CHANGE THIS! */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+
+
+<body>
+
+<header>
+  <h2>deftones inspo</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">LINK 1</a></li>
+      <li><a href="#">LINK 2</a></li>
+      <li><a href="#">LINK 3</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Title of article</h1>
+    <p>Deftones es una banda estadounidense de metal alternativo formada en Sacramento, California, en el año 1988. Son considerados los pioneros del género nu metal junto con Korn. Sus integrantes son Chino Moreno (vocalista), Stephen Carpenter (guitarrista), Abe Cunningham (baterista), y Frank Delgado (samplers). El bajista original de la banda era Chi Cheng, quien quedó en coma después de un accidente en 2008 y murió en 2013. Desde su formación, la banda ha lanzado nueve álbumes de estudio, dos EP, un álbum recopilatorio y veintitrés sencillos, además de un box set que incluye todos sus álbumes. La banda cuenta con un disco de oro y tres discos de platino.1​</p>
+    <p>Make sure to talk about your hobbies and interests and add pictures.</p>
+  </article>
+</section>
+
+<footer>
+  <p>Adriana Aldaz  aaldaz@mlvrcs.org</p>
+</footer>
+
+</body>
+</html>
